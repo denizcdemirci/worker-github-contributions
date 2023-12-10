@@ -24,7 +24,7 @@ Here is an example of the response to the script:
     "date": "2023-12-02",
     "level": 1,
     "count": 1
-  },
+  }
 ]
 ```
 
