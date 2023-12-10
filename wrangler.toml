@@ -1,0 +1,6 @@
+name = "github-contributions"
+main = "src/index.ts"
+compatibility_date = "2023-08-21"
+
+[vars]
+GITHUB_USERNAME = ""
