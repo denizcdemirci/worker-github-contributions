@@ -3,8 +3,8 @@ import { type CheerioAPI } from 'cheerio'
 import { Contribution } from './types/base';
 
 const getCount = ($: CheerioAPI, index: number) => {
-  const count = $(`tool-tip:nth-child(${index + 1})`).text();
-  return count?.startsWith('No') ? 0 : parseInt(count[0]);
+  const text = $(`tool-tip:nth-child(${index + 1})`).text();
+  return text?.startsWith('No') ? 0 : parseInt((text as string).split(' ')[0]);
 };
 
 export const createSchema = ($: CheerioAPI): Schema => ({
