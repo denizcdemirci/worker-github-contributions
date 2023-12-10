@@ -10,7 +10,6 @@ Here is an example of the response to the script:
 
 ```json
 [
-  // ...
   {
     "date": "2023-11-30",
     "level": 3,
@@ -26,7 +25,6 @@ Here is an example of the response to the script:
     "level": 1,
     "count": 1
   },
-  // ...
 ]
 ```
 
