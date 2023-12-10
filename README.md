@@ -4,6 +4,8 @@
 
 This template is a simple GitHub contribution activity wrapper for Cloudflare Workers. It returns the last year of activity history on GitHub. You can use it to display the contribution activity on your website.
 
+It uses the [muninn](https://github.com/wopehq/muninn) to parse the HTML response from GitHub.
+
 [`src/index.ts`](https://github.com/denizcdemirci/worker-github-contributions/blob/main/src/index.ts) is the content of the Workers script.
 
 Here is an example of the response to the script:
